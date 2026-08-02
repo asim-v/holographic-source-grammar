@@ -1,0 +1,5 @@
+outcome,metric,mean_file_effect,p_value,n_files,n_assignments,q_value,passes
+pscs_demixed,mse_gain_source_vs_anonymous,0.0008777067765320264,0.001953125,9,512,0.00390625,True
+pscs_demixed,rho_gain_source_vs_anonymous,-0.0026276185832238164,0.681640625,9,512,0.681640625,False
+pscs,mse_gain_source_vs_anonymous,0.0006459558355117738,0.09375,9,512,0.1875,False
+pscs,rho_gain_source_vs_anonymous,-0.06850419976078681,1.0,9,512,1.0,False

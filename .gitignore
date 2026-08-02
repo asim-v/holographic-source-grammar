@@ -1,0 +1,30 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Raw Figshare downloads are checksum-pinned but intentionally not versioned.
+data/raw/
+*.mat
+*.part
+*.parts/
+
+# Recomputable analysis outputs that are too large for ordinary Git.
+artifacts/**/trial_metrics.csv.gz
+artifacts/**/selective_ablation.csv.gz
+
+# Local paper build intermediates.
+manuscript/*.aux
+manuscript/*.bbl
+manuscript/*.bcf
+manuscript/*.blg
+manuscript/*.fdb_latexmk
+manuscript/*.fls
+manuscript/*.log
+manuscript/*.out
+manuscript/*.run.xml
+manuscript/*.synctex.gz
+manuscript/*.toc
+tmp/

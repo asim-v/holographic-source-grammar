@@ -1,0 +1,24 @@
+{
+  "protocol": "docs/holographic_source_composition_protocol.md",
+  "protocol_sha256": "ef740262f89da0c1b4051b24c52b57084c44f8bfdd7f407b7f541f59dc02d45a",
+  "previous_protocol_sha256": "47de495367b789c15f00f1e23b80d8a3e33ea3ff3991027690059b57ab9b9c37",
+  "protocol_sha256_history": [
+    "ceed4181c4c82fafef325640aedbabfca63914f596b23c8a82ee331db5cc4a16",
+    "47de495367b789c15f00f1e23b80d8a3e33ea3ff3991027690059b57ab9b9c37"
+  ],
+  "clarification_timing": "before_response_waveform_arrays_were_read",
+  "data_contract_amendment_timing": "after_finiteness-mask_smoke_before_response_values_or_composition_statistics",
+  "manifest": "data/holographic_circuitmap_manifest.json",
+  "manifest_sha256": "65864e3126d6d1b9c0f8ce11e9ff1bbd47a423fcdef4f64a54792660cadb04ab",
+  "locked_utc_date": "2026-07-30",
+  "status": "prospective_sst_with_sealed_pv_confirmation",
+  "sampling_hz": 20000,
+  "stimulus_sample": 100,
+  "response_samples": [120, 900],
+  "minimum_single_trials_per_source_power": 3,
+  "source_identity_nulls": 999,
+  "sst_files": 9,
+  "pv_files": 14,
+  "pv_opened": false,
+  "circuitmap_commit": "75934895f8ef02b8045ab1a8eee592a062c2489e"
+}

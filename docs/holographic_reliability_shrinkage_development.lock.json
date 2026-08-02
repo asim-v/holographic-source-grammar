@@ -1,0 +1,15 @@
+{
+  "protocol": "docs/holographic_reliability_shrinkage_development.md",
+  "protocol_sha256": "054d4b692ffba4a2e85c65f99d1ba5e041e27829dd1575d06ac212bbd73391a8",
+  "source_result": "artifacts/holographic_source_composition_sst/summary.json",
+  "source_result_sha256": "4b499e25bbb79cc8ad34025b19e3bb6e26016d029024481c8f0e37d58732c39e",
+  "original_source_result_sha256": "006ea9149a76a99d7d5ea56702465251901ea0114f1c97a26f4cadd69d2b4700",
+  "provenance_sanitization": "Absolute local paths were replaced with repository-relative paths; analysis values are unchanged.",
+  "manifest": "data/holographic_circuitmap_manifest.json",
+  "manifest_sha256": "65864e3126d6d1b9c0f8ce11e9ff1bbd47a423fcdef4f64a54792660cadb04ab",
+  "locked_utc_date": "2026-07-30",
+  "status": "posthoc_sst_development_with_unopened_etoe_confirmation",
+  "source_identity_nulls": 999,
+  "pv_opened": false,
+  "etoe_opened": false
+}

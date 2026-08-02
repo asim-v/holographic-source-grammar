@@ -1,0 +1,87 @@
+{
+  "figshare_article_id": 25641435,
+  "figshare_version": 1,
+  "doi": "10.6084/m9.figshare.25641435.v1",
+  "title": "Neural circuit mapping using two-photon holographic optogenetics",
+  "license": "CC BY 4.0",
+  "article_url": "https://figshare.com/articles/dataset/Neural_circuit_mapping_using_two-photon_holographic_optogenetics/25641435",
+  "api_url": "https://api.figshare.com/v2/articles/25641435",
+  "code_repository": "https://github.com/marcustriplett/circuitmap",
+  "code_commit": "75934895f8ef02b8045ab1a8eee592a062c2489e",
+  "cohort": "etoe_confirmation",
+  "opened_at_manifest_lock": false,
+  "file_count": 10,
+  "total_size_bytes": 8200077180,
+  "files": [
+    {
+      "id": 55280060,
+      "name": "12142022_cell1_map_EtoE_A_cmFormat.mat",
+      "size": 757479935,
+      "md5": "cb3c0b18bbd81f5d2835ac2837d74557",
+      "download_url": "https://ndownloader.figshare.com/files/55280060"
+    },
+    {
+      "id": 55280057,
+      "name": "12142022_cell2_map_EtoE_A_cmFormat.mat",
+      "size": 750230867,
+      "md5": "92ade064a3a0d53add0ef365a12675b1",
+      "download_url": "https://ndownloader.figshare.com/files/55280057"
+    },
+    {
+      "id": 55280054,
+      "name": "12142022_cell3_map_EtoE_A_cmFormat.mat",
+      "size": 741292526,
+      "md5": "c899140009c20d49283ff360089575b7",
+      "download_url": "https://ndownloader.figshare.com/files/55280054"
+    },
+    {
+      "id": 55280072,
+      "name": "12142022_cell4_map_EtoE_A_cmFormat.mat",
+      "size": 983113240,
+      "md5": "a94caf1b18c9e7741d6d18388ef420ac",
+      "download_url": "https://ndownloader.figshare.com/files/55280072"
+    },
+    {
+      "id": 55280045,
+      "name": "12142022_cell7_map_EtoE_A_cmFormat.mat",
+      "size": 680287154,
+      "md5": "ac027753e126c63b01878428e8117bfa",
+      "download_url": "https://ndownloader.figshare.com/files/55280045"
+    },
+    {
+      "id": 55280039,
+      "name": "12162022_cell1_map_EtoE_A_cmFormat.mat",
+      "size": 665714654,
+      "md5": "5994d557ae00ec0a54ac1307f705c5e0",
+      "download_url": "https://ndownloader.figshare.com/files/55280039"
+    },
+    {
+      "id": 55280048,
+      "name": "12192022_cell3_map_EtoE_A_cmFormat.mat",
+      "size": 697021129,
+      "md5": "ad209985ef1d4e8899e6c2e249d788b7",
+      "download_url": "https://ndownloader.figshare.com/files/55280048"
+    },
+    {
+      "id": 55280087,
+      "name": "12192022_cell5_map_EtoE_A_cmFormat.mat",
+      "size": 1456448141,
+      "md5": "9cd9563dbbaead7ce5e7fe8b8a39c193",
+      "download_url": "https://ndownloader.figshare.com/files/55280087"
+    },
+    {
+      "id": 55280066,
+      "name": "12192022_cell6_map_EtoE_A_cmFormat.mat",
+      "size": 784683001,
+      "md5": "08279ad93e04e6e8f59dfdd82de1ab8c",
+      "download_url": "https://ndownloader.figshare.com/files/55280066"
+    },
+    {
+      "id": 55280042,
+      "name": "12192022_cell8_map_EtoE_A_cmFormat.mat",
+      "size": 683806533,
+      "md5": "25618e8230739133f96a3e61c2738b87",
+      "download_url": "https://ndownloader.figshare.com/files/55280042"
+    }
+  ]
+}

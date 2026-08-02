@@ -1,0 +1,207 @@
+{
+  "figshare_article_id": 25641435,
+  "figshare_version": 1,
+  "doi": "10.6084/m9.figshare.25641435.v1",
+  "title": "Neural circuit mapping using two-photon holographic optogenetics",
+  "license": "CC BY 4.0",
+  "code_repository": "https://github.com/marcustriplett/circuitmap",
+  "code_commit": "75934895f8ef02b8045ab1a8eee592a062c2489e",
+  "cohorts": {
+    "sst_discovery": {
+      "opened": true,
+      "files": [
+        "06022023_cell4_map_SSTtoE_A_cmFormat.mat",
+        "06072023_cell1_map_SSTtoE_A_cmFormat.mat",
+        "06072023_cell2_map_SSTtoE_A_cmFormat.mat",
+        "06072023_cell3_map_SSTtoE_A_cmFormat.mat",
+        "11302022_cell2_map_SSTtoE_A_cmFormat.mat",
+        "12012022_cell1_map_SSTtoE_A_cmFormat.mat",
+        "12012022_cell2_map_SSTtoE_A_cmFormat.mat",
+        "12012022_cell3_map_SSTtoE_B_cmFormat.mat",
+        "12072022_cell3_map_SSTtoE_A_cmFormat.mat"
+      ]
+    },
+    "pv_confirmation": {
+      "opened": false,
+      "files": [
+        "01062023_cell1_map_PVtoE_A_cmFormat.mat",
+        "01062023_cell2_map_PVtoE_A_cmFormat.mat",
+        "01062023_cell4_map_PVtoE_A_cmFormat.mat",
+        "01062023_cell6_map_PVtoE_A_cmFormat.mat",
+        "01062023_cell9_map_PVtoE_A_cmFormat.mat",
+        "01092023_cell5_map_PVtoE_A_cmFormat.mat",
+        "01102023_cell1_map_PVtoE_A_cmFormat.mat",
+        "01102023_cell2_map_PVtoE_A_cmFormat.mat",
+        "01112023_cell1_map_PVtoE_A_cmFormat.mat",
+        "01112023_cell2_map_PVtoE_A_cmFormat.mat",
+        "01112023_cell4_map_PVtoE_A_cmFormat.mat",
+        "12062022_cell6_map_PVtoE_A_cmFormat.mat",
+        "12122022_cell1_map_PVtoE_A_cmFormat.mat",
+        "12202022_cell1_map_PVtoE_A_cmFormat.mat"
+      ]
+    }
+  },
+  "files": [
+    {
+      "cohort": "sst_discovery",
+      "name": "06022023_cell4_map_SSTtoE_A_cmFormat.mat",
+      "size": 237655135,
+      "md5": "406c317c45c26ce1c94acd9e11911cfa",
+      "download_url": "https://ndownloader.figshare.com/files/55279988"
+    },
+    {
+      "cohort": "sst_discovery",
+      "name": "06072023_cell1_map_SSTtoE_A_cmFormat.mat",
+      "size": 232005312,
+      "md5": "54451621f360d5ec89e54f036425ab29",
+      "download_url": "https://ndownloader.figshare.com/files/55279985"
+    },
+    {
+      "cohort": "sst_discovery",
+      "name": "06072023_cell2_map_SSTtoE_A_cmFormat.mat",
+      "size": 377479852,
+      "md5": "caa769ed18e90be8f2072781fe64fe5a",
+      "download_url": "https://ndownloader.figshare.com/files/55280018"
+    },
+    {
+      "cohort": "sst_discovery",
+      "name": "06072023_cell3_map_SSTtoE_A_cmFormat.mat",
+      "size": 197728454,
+      "md5": "b44753c6e3a39cdd5ff0cf9ab1d2828b",
+      "download_url": "https://ndownloader.figshare.com/files/55279979"
+    },
+    {
+      "cohort": "sst_discovery",
+      "name": "11302022_cell2_map_SSTtoE_A_cmFormat.mat",
+      "size": 343017130,
+      "md5": "45b512c86b199cb91adafcaa9e22a1d7",
+      "download_url": "https://ndownloader.figshare.com/files/55280012"
+    },
+    {
+      "cohort": "sst_discovery",
+      "name": "12012022_cell1_map_SSTtoE_A_cmFormat.mat",
+      "size": 127289118,
+      "md5": "d0f6e2bdac3a38c1c4ba50bbbb9d13df",
+      "download_url": "https://ndownloader.figshare.com/files/55279973"
+    },
+    {
+      "cohort": "sst_discovery",
+      "name": "12012022_cell2_map_SSTtoE_A_cmFormat.mat",
+      "size": 163782527,
+      "md5": "b1c7e4752068b08949dc05c822c357a3",
+      "download_url": "https://ndownloader.figshare.com/files/55279976"
+    },
+    {
+      "cohort": "sst_discovery",
+      "name": "12012022_cell3_map_SSTtoE_B_cmFormat.mat",
+      "size": 214408423,
+      "md5": "1fda7370f811924efc1f04e9a90efd44",
+      "download_url": "https://ndownloader.figshare.com/files/55279982"
+    },
+    {
+      "cohort": "sst_discovery",
+      "name": "12072022_cell3_map_SSTtoE_A_cmFormat.mat",
+      "size": 259817271,
+      "md5": "cb27881492f7bf39b8e79b766b7ea0d6",
+      "download_url": "https://ndownloader.figshare.com/files/55279994"
+    },
+    {
+      "cohort": "pv_confirmation",
+      "name": "01062023_cell1_map_PVtoE_A_cmFormat.mat",
+      "size": 580639918,
+      "md5": "9ca75e83b25c5a2172e069c9cdca84ae",
+      "download_url": "https://ndownloader.figshare.com/files/55280036"
+    },
+    {
+      "cohort": "pv_confirmation",
+      "name": "01062023_cell2_map_PVtoE_A_cmFormat.mat",
+      "size": 318404266,
+      "md5": "717600149f159cd02882f2ce2e51ef93",
+      "download_url": "https://ndownloader.figshare.com/files/55280006"
+    },
+    {
+      "cohort": "pv_confirmation",
+      "name": "01062023_cell4_map_PVtoE_A_cmFormat.mat",
+      "size": 277246284,
+      "md5": "09463daec5a884cf6dbc4c1e04c8ea90",
+      "download_url": "https://ndownloader.figshare.com/files/55279997"
+    },
+    {
+      "cohort": "pv_confirmation",
+      "name": "01062023_cell6_map_PVtoE_A_cmFormat.mat",
+      "size": 384932661,
+      "md5": "4814e959ad9930e5521f78a01409dc98",
+      "download_url": "https://ndownloader.figshare.com/files/55280015"
+    },
+    {
+      "cohort": "pv_confirmation",
+      "name": "01062023_cell9_map_PVtoE_A_cmFormat.mat",
+      "size": 557524886,
+      "md5": "5824dcd3012e0f8ca1ba8eedc8171192",
+      "download_url": "https://ndownloader.figshare.com/files/55280033"
+    },
+    {
+      "cohort": "pv_confirmation",
+      "name": "01092023_cell5_map_PVtoE_A_cmFormat.mat",
+      "size": 523345505,
+      "md5": "4a07f96c70802e03e01359474f1bc3f4",
+      "download_url": "https://ndownloader.figshare.com/files/55280027"
+    },
+    {
+      "cohort": "pv_confirmation",
+      "name": "01102023_cell1_map_PVtoE_A_cmFormat.mat",
+      "size": 276855249,
+      "md5": "d97bf7ad7236bdf75b7cf43e3b437c1b",
+      "download_url": "https://ndownloader.figshare.com/files/55280000"
+    },
+    {
+      "cohort": "pv_confirmation",
+      "name": "01102023_cell2_map_PVtoE_A_cmFormat.mat",
+      "size": 262696859,
+      "md5": "ebb9afd8dae432a0ca6f65af7d57b11e",
+      "download_url": "https://ndownloader.figshare.com/files/55279991"
+    },
+    {
+      "cohort": "pv_confirmation",
+      "name": "01112023_cell1_map_PVtoE_A_cmFormat.mat",
+      "size": 531894629,
+      "md5": "73b43da596a599462e48994d43db5dcc",
+      "download_url": "https://ndownloader.figshare.com/files/55280030"
+    },
+    {
+      "cohort": "pv_confirmation",
+      "name": "01112023_cell2_map_PVtoE_A_cmFormat.mat",
+      "size": 448784118,
+      "md5": "b12c8642a758b226010827f5b51cb0c7",
+      "download_url": "https://ndownloader.figshare.com/files/55280024"
+    },
+    {
+      "cohort": "pv_confirmation",
+      "name": "01112023_cell4_map_PVtoE_A_cmFormat.mat",
+      "size": 437984129,
+      "md5": "489f9d629bf9fcd18ba690f9495b44c4",
+      "download_url": "https://ndownloader.figshare.com/files/55280021"
+    },
+    {
+      "cohort": "pv_confirmation",
+      "name": "12062022_cell6_map_PVtoE_A_cmFormat.mat",
+      "size": 337998070,
+      "md5": "3fb3c78d4b78a5106f1ec51b4d3574fa",
+      "download_url": "https://ndownloader.figshare.com/files/55280009"
+    },
+    {
+      "cohort": "pv_confirmation",
+      "name": "12122022_cell1_map_PVtoE_A_cmFormat.mat",
+      "size": 315448574,
+      "md5": "629289dd00c56fb8579b8cc791a3ebac",
+      "download_url": "https://ndownloader.figshare.com/files/55280003"
+    },
+    {
+      "cohort": "pv_confirmation",
+      "name": "12202022_cell1_map_PVtoE_A_cmFormat.mat",
+      "size": 739020288,
+      "md5": "65459114aae8f3121b832bed10793a93",
+      "download_url": "https://ndownloader.figshare.com/files/55280051"
+    }
+  ]
+}

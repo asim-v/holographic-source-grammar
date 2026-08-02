@@ -1,0 +1,271 @@
+{
+  "analysis": "holographic_reliability_shrinkage",
+  "status": "posthoc_sst_development",
+  "protocol_complete": true,
+  "protocol_sha256": "054d4b692ffba4a2e85c65f99d1ba5e041e27829dd1575d06ac212bbd73391a8",
+  "source_result_sha256": "4b499e25bbb79cc8ad34025b19e3bb6e26016d029024481c8f0e37d58732c39e",
+  "manifest_sha256": "65864e3126d6d1b9c0f8ce11e9ff1bbd47a423fcdef4f64a54792660cadb04ab",
+  "files": 9,
+  "eligible_primary_ensemble_trials": 19217,
+  "null_repetitions": 999,
+  "mean_power_shrinkage": {
+    "pscs_demixed": 0.780950198989387,
+    "pscs": 0.5515341708901084
+  },
+  "composition_tests": [
+    {
+      "outcome": "pscs_demixed",
+      "metric": "mse_gain_source_vs_anonymous",
+      "mean_file_effect": 0.00089223,
+      "p_value": 0.001953125,
+      "n_files": 9,
+      "n_assignments": 512,
+      "q_value": 0.00390625,
+      "passes": true
+    },
+    {
+      "outcome": "pscs_demixed",
+      "metric": "rho_gain_source_vs_anonymous",
+      "mean_file_effect": 0.004128895,
+      "p_value": 0.046875,
+      "n_files": 9,
+      "n_assignments": 512,
+      "q_value": 0.046875,
+      "passes": true
+    },
+    {
+      "outcome": "pscs",
+      "metric": "mse_gain_source_vs_anonymous",
+      "mean_file_effect": 0.0008358086,
+      "p_value": 0.001953125,
+      "n_files": 9,
+      "n_assignments": 512,
+      "q_value": 0.00390625,
+      "passes": true
+    },
+    {
+      "outcome": "pscs",
+      "metric": "rho_gain_source_vs_anonymous",
+      "mean_file_effect": -0.0002317336,
+      "p_value": 0.541015625,
+      "n_files": 9,
+      "n_assignments": 512,
+      "q_value": 0.541015625,
+      "passes": false
+    }
+  ],
+  "minimum_leave_one_file_out": {
+    "mse_gain_source_vs_anonymous": 0.0005646734864428265,
+    "rho_gain_source_vs_anonymous": 0.002343314542117018
+  },
+  "source_identity_null_tests": [
+    {
+      "metric": "mse_gain_source_vs_anonymous",
+      "observed_mean_file_effect": 0.00089223,
+      "null_mean": -0.0008823227,
+      "null_standard_deviation": 0.0001569333,
+      "null_raw_99_percentile": -0.0004202306,
+      "observed_z": 11.3076862094,
+      "familywise_99_threshold_z": 3.2888545481,
+      "familywise_p_value": 0.001,
+      "passes": true
+    },
+    {
+      "metric": "rho_gain_source_vs_anonymous",
+      "observed_mean_file_effect": 0.004128895,
+      "null_mean": -0.0163979892,
+      "null_standard_deviation": 0.0011394866,
+      "null_raw_99_percentile": -0.0132501869,
+      "observed_z": 18.0141516536,
+      "familywise_99_threshold_z": 3.2888545481,
+      "familywise_p_value": 0.001,
+      "passes": true
+    }
+  ],
+  "selective_ablation_test": [
+    {
+      "mean_file_effect": 0.0002239825,
+      "p_value": 0.001953125,
+      "n_files": 9,
+      "n_assignments": 512,
+      "passes": true
+    }
+  ],
+  "comparison_to_full_tokens": [
+    {
+      "outcome": "pscs_demixed",
+      "metric": "mse_gain_source_vs_anonymous",
+      "mean_shrunk_effect": 0.00089223,
+      "mean_full_effect": 0.0008777068,
+      "mean_shrunk_minus_full": 1.45232e-05,
+      "p_value_shrunk_better": 0.06640625
+    },
+    {
+      "outcome": "pscs_demixed",
+      "metric": "rho_gain_source_vs_anonymous",
+      "mean_shrunk_effect": 0.004128895,
+      "mean_full_effect": -0.0026276186,
+      "mean_shrunk_minus_full": 0.0067565136,
+      "p_value_shrunk_better": 0.001953125
+    },
+    {
+      "outcome": "pscs",
+      "metric": "mse_gain_source_vs_anonymous",
+      "mean_shrunk_effect": 0.0008358086,
+      "mean_full_effect": 0.0006459558,
+      "mean_shrunk_minus_full": 0.0001898528,
+      "p_value_shrunk_better": 0.0078125
+    },
+    {
+      "outcome": "pscs",
+      "metric": "rho_gain_source_vs_anonymous",
+      "mean_shrunk_effect": -0.0002317336,
+      "mean_full_effect": -0.0685041998,
+      "mean_shrunk_minus_full": 0.0682724661,
+      "p_value_shrunk_better": 0.001953125
+    }
+  ],
+  "gates": {
+    "protocol_complete": true,
+    "primary_composition_metrics": true,
+    "positive_leave_one_file_out": true,
+    "familywise_source_identity_null": true,
+    "selective_token_ablation": true,
+    "all_nine_files_usable": true,
+    "advance_to_locked_etoe_confirmation": true,
+    "original_sst_gate_remains_failed": true,
+    "pv_remains_sealed": true
+  },
+  "pv_may_be_opened": false,
+  "interpretation": "This opened-SST result is development evidence only. It cannot revise the failed original gate or support transfer without a separately locked unopened cohort.",
+  "inputs": [
+    {
+      "path": "docs/holographic_reliability_shrinkage_development.md",
+      "sha256": "054d4b692ffba4a2e85c65f99d1ba5e041e27829dd1575d06ac212bbd73391a8"
+    },
+    {
+      "path": "docs/holographic_reliability_shrinkage_development.lock.json",
+      "sha256": "2de70ffaa788de585821c03ea5d31afc6008b7ca6cb2e722eccb6c9ef38a3b23"
+    },
+    {
+      "path": "artifacts/holographic_source_composition_sst/summary.json",
+      "sha256": "4b499e25bbb79cc8ad34025b19e3bb6e26016d029024481c8f0e37d58732c39e"
+    },
+    {
+      "path": "data/holographic_circuitmap_manifest.json",
+      "sha256": "65864e3126d6d1b9c0f8ce11e9ff1bbd47a423fcdef4f64a54792660cadb04ab"
+    },
+    {
+      "path": "data/raw/holographic_circuitmap/06022023_cell4_map_SSTtoE_A_cmFormat.mat",
+      "size": 237655135,
+      "md5": "406c317c45c26ce1c94acd9e11911cfa"
+    },
+    {
+      "path": "data/raw/holographic_circuitmap/06072023_cell1_map_SSTtoE_A_cmFormat.mat",
+      "size": 232005312,
+      "md5": "54451621f360d5ec89e54f036425ab29"
+    },
+    {
+      "path": "data/raw/holographic_circuitmap/06072023_cell2_map_SSTtoE_A_cmFormat.mat",
+      "size": 377479852,
+      "md5": "caa769ed18e90be8f2072781fe64fe5a"
+    },
+    {
+      "path": "data/raw/holographic_circuitmap/06072023_cell3_map_SSTtoE_A_cmFormat.mat",
+      "size": 197728454,
+      "md5": "b44753c6e3a39cdd5ff0cf9ab1d2828b"
+    },
+    {
+      "path": "data/raw/holographic_circuitmap/11302022_cell2_map_SSTtoE_A_cmFormat.mat",
+      "size": 343017130,
+      "md5": "45b512c86b199cb91adafcaa9e22a1d7"
+    },
+    {
+      "path": "data/raw/holographic_circuitmap/12012022_cell1_map_SSTtoE_A_cmFormat.mat",
+      "size": 127289118,
+      "md5": "d0f6e2bdac3a38c1c4ba50bbbb9d13df"
+    },
+    {
+      "path": "data/raw/holographic_circuitmap/12012022_cell2_map_SSTtoE_A_cmFormat.mat",
+      "size": 163782527,
+      "md5": "b1c7e4752068b08949dc05c822c357a3"
+    },
+    {
+      "path": "data/raw/holographic_circuitmap/12012022_cell3_map_SSTtoE_B_cmFormat.mat",
+      "size": 214408423,
+      "md5": "1fda7370f811924efc1f04e9a90efd44"
+    },
+    {
+      "path": "data/raw/holographic_circuitmap/12072022_cell3_map_SSTtoE_A_cmFormat.mat",
+      "size": 259817271,
+      "md5": "cb27881492f7bf39b8e79b766b7ea0d6"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "artifacts/holographic_reliability_shrinkage_sst/trial_metrics.csv.gz",
+      "rows": 38434,
+      "sha256": "5c9e3629a9a8a6bb19eb3e6697ddd8bd701865d9e6bfedc972faaf16c3c3128a"
+    },
+    {
+      "path": "artifacts/holographic_reliability_shrinkage_sst/file_effects.csv",
+      "rows": 18,
+      "sha256": "d5f6607b6527a0b4db80efb7c91921f14dd1a0af9342ebd6328fb34b16265382"
+    },
+    {
+      "path": "artifacts/holographic_reliability_shrinkage_sst/composition_tests.csv",
+      "rows": 4,
+      "sha256": "c95d8a8cef0af4cfcd5c3b081e1e78b0db3b98c81fd62d764b8217080ded117c"
+    },
+    {
+      "path": "artifacts/holographic_reliability_shrinkage_sst/leave_one_file_out.csv",
+      "rows": 36,
+      "sha256": "51278080bf71656df5292deb6a85f5a1ed10982d0e02cf7f574cdc6630c4f547"
+    },
+    {
+      "path": "artifacts/holographic_reliability_shrinkage_sst/token_reliability.csv.gz",
+      "rows": 6224,
+      "sha256": "0eb6345849c2bbcc8b3c236b2a38e68eccd39e32fcc431ac9a90c1cf62415a03"
+    },
+    {
+      "path": "artifacts/holographic_reliability_shrinkage_sst/power_shrinkage.csv",
+      "rows": 52,
+      "sha256": "860352ce4f6a8b046ae559bc27dd204877c61ec276fae6d443004906b3f9d884"
+    },
+    {
+      "path": "artifacts/holographic_reliability_shrinkage_sst/source_identity_nulls.csv.gz",
+      "rows": 8991,
+      "sha256": "e034b46444087c4604f243f57b860d7d293b60a754ad19339d1a29d1d3daa993"
+    },
+    {
+      "path": "artifacts/holographic_reliability_shrinkage_sst/source_identity_null_summary.csv",
+      "rows": 2,
+      "sha256": "75d048b7354a10e45ee30a8bdfb75671151ce45ab550f155ed036ba1cc4bc980"
+    },
+    {
+      "path": "artifacts/holographic_reliability_shrinkage_sst/selective_ablation.csv.gz",
+      "rows": 188076,
+      "sha256": "21a8c94fe64a4666c0fdf43a18c709a6f295fe106b76a572b98bf6c07f43ebc1"
+    },
+    {
+      "path": "artifacts/holographic_reliability_shrinkage_sst/selective_ablation_file_effects.csv",
+      "rows": 9,
+      "sha256": "2234ec06e033a8137f83748a93da47c7a261dd11114319fbbf85558715919a7f"
+    },
+    {
+      "path": "artifacts/holographic_reliability_shrinkage_sst/selective_ablation_test.csv",
+      "rows": 1,
+      "sha256": "adc601254143d0433606796fbfe2ace2506d707efcbeb65f9b91bf1d24f7e67c"
+    },
+    {
+      "path": "artifacts/holographic_reliability_shrinkage_sst/comparison_to_full_tokens.csv",
+      "rows": 4,
+      "sha256": "ac905e22fc3af9bf87d59846e69dd2c09789b8dd567f6579ddb15b57d167a1a1"
+    },
+    {
+      "path": "artifacts/holographic_reliability_shrinkage_sst/file_diagnostics.csv",
+      "rows": 9,
+      "sha256": "0250ea09e4ac9de2dc94f036cc23beee3b3394e25d7b8c6d0b88fed897c40734"
+    }
+  ]
+}

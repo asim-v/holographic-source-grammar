@@ -1,0 +1,245 @@
+{
+  "analysis": "holographic_etoe_confirmation",
+  "status": "prospective_confirmation",
+  "protocol_complete": true,
+  "protocol_sha256": "e8e48ec69bf0bb5fa99226e737d46f3d2e8ab21cb32c471be6863b5eacb10d83",
+  "manifest_sha256": "984f4e3b5187fb80420af96be40190775a7906419fe2036f5186c54e2be5d237",
+  "development_result_sha256": "f13b70a7407e9ceda6afe38d35486849ced509fca9af6f60df969d15be7cd1a6",
+  "figshare_article_id": 25641435,
+  "doi": "10.6084/m9.figshare.25641435.v1",
+  "files_requested": 10,
+  "files_with_eligible_ensembles": 10,
+  "null_repetitions": 999,
+  "trial_counts": {
+    "total": 204054,
+    "single_source": 129613,
+    "ensemble": 74435,
+    "eligible_primary_ensemble": 74435
+  },
+  "mean_power_shrinkage": {
+    "pscs_demixed": 0.47911597759570873,
+    "pscs": 0.4638950301595601
+  },
+  "composition_tests": [
+    {
+      "outcome": "pscs_demixed",
+      "metric": "mse_gain_source_vs_anonymous",
+      "mean_file_effect": 2.11952e-05,
+      "p_value": 0.0009765625,
+      "n_files": 10,
+      "n_assignments": 1024,
+      "q_value": 0.001953125,
+      "passes": true
+    },
+    {
+      "outcome": "pscs_demixed",
+      "metric": "rho_gain_source_vs_anonymous",
+      "mean_file_effect": 0.0039729954,
+      "p_value": 0.0087890625,
+      "n_files": 10,
+      "n_assignments": 1024,
+      "q_value": 0.0087890625,
+      "passes": true
+    },
+    {
+      "outcome": "pscs",
+      "metric": "mse_gain_source_vs_anonymous",
+      "mean_file_effect": 0.0003087973,
+      "p_value": 0.0009765625,
+      "n_files": 10,
+      "n_assignments": 1024,
+      "q_value": 0.001953125,
+      "passes": true
+    },
+    {
+      "outcome": "pscs",
+      "metric": "rho_gain_source_vs_anonymous",
+      "mean_file_effect": -0.0064989781,
+      "p_value": 0.802734375,
+      "n_files": 10,
+      "n_assignments": 1024,
+      "q_value": 0.802734375,
+      "passes": false
+    }
+  ],
+  "minimum_leave_one_file_out": {
+    "mse_gain_source_vs_anonymous": 5.619088947171949e-06,
+    "rho_gain_source_vs_anonymous": 0.0028002860903509324
+  },
+  "source_identity_null_tests": [
+    {
+      "metric": "mse_gain_source_vs_anonymous",
+      "observed_mean_file_effect": 2.11952e-05,
+      "null_mean": -2.27712e-05,
+      "null_standard_deviation": 1.4918e-06,
+      "null_raw_99_percentile": -1.87292e-05,
+      "observed_z": 29.4724819674,
+      "familywise_99_threshold_z": 2.9340603708,
+      "familywise_p_value": 0.001,
+      "passes": true
+    },
+    {
+      "metric": "rho_gain_source_vs_anonymous",
+      "observed_mean_file_effect": 0.0039729954,
+      "null_mean": -0.0059544391,
+      "null_standard_deviation": 0.0002762633,
+      "null_raw_99_percentile": -0.0052936528,
+      "observed_z": 35.9346882579,
+      "familywise_99_threshold_z": 2.9340603708,
+      "familywise_p_value": 0.001,
+      "passes": true
+    }
+  ],
+  "selective_ablation_test": [
+    {
+      "mean_file_effect": 4.5666e-06,
+      "p_value": 0.0009765625,
+      "n_files": 10,
+      "n_assignments": 1024,
+      "passes": true
+    }
+  ],
+  "gates": {
+    "protocol_complete": true,
+    "primary_composition_metrics": true,
+    "positive_leave_one_file_out": true,
+    "familywise_source_identity_null": true,
+    "selective_token_ablation": true,
+    "usable_files": 10,
+    "minimum_usable_files": 8,
+    "minimum_file_count": true,
+    "etoe_confirmation": true
+  },
+  "interpretation": "A pass supports transfer of a reliability-weighted source-specific additive current grammar from SST to E-to-E perturbations. It does not establish monosemantic neurons or a complete neural language.",
+  "pv_remains_sealed": true,
+  "inputs": [
+    {
+      "path": "docs/holographic_etoe_confirmation_protocol.md",
+      "sha256": "e8e48ec69bf0bb5fa99226e737d46f3d2e8ab21cb32c471be6863b5eacb10d83"
+    },
+    {
+      "path": "docs/holographic_etoe_confirmation_protocol.lock.json",
+      "sha256": "9d2625d3e24d9ae20de70061f14b1ca952afe7c55a5767355c375fc7d25d0202"
+    },
+    {
+      "path": "data/holographic_etoe_confirmation_manifest.json",
+      "sha256": "984f4e3b5187fb80420af96be40190775a7906419fe2036f5186c54e2be5d237"
+    },
+    {
+      "path": "artifacts/holographic_reliability_shrinkage_sst/summary.json",
+      "sha256": "f13b70a7407e9ceda6afe38d35486849ced509fca9af6f60df969d15be7cd1a6"
+    },
+    {
+      "path": "data/raw/holographic_circuitmap_etoe/12142022_cell1_map_EtoE_A_cmFormat.mat",
+      "size": 757479935,
+      "md5": "cb3c0b18bbd81f5d2835ac2837d74557"
+    },
+    {
+      "path": "data/raw/holographic_circuitmap_etoe/12142022_cell2_map_EtoE_A_cmFormat.mat",
+      "size": 750230867,
+      "md5": "92ade064a3a0d53add0ef365a12675b1"
+    },
+    {
+      "path": "data/raw/holographic_circuitmap_etoe/12142022_cell3_map_EtoE_A_cmFormat.mat",
+      "size": 741292526,
+      "md5": "c899140009c20d49283ff360089575b7"
+    },
+    {
+      "path": "data/raw/holographic_circuitmap_etoe/12142022_cell4_map_EtoE_A_cmFormat.mat",
+      "size": 983113240,
+      "md5": "a94caf1b18c9e7741d6d18388ef420ac"
+    },
+    {
+      "path": "data/raw/holographic_circuitmap_etoe/12142022_cell7_map_EtoE_A_cmFormat.mat",
+      "size": 680287154,
+      "md5": "ac027753e126c63b01878428e8117bfa"
+    },
+    {
+      "path": "data/raw/holographic_circuitmap_etoe/12162022_cell1_map_EtoE_A_cmFormat.mat",
+      "size": 665714654,
+      "md5": "5994d557ae00ec0a54ac1307f705c5e0"
+    },
+    {
+      "path": "data/raw/holographic_circuitmap_etoe/12192022_cell3_map_EtoE_A_cmFormat.mat",
+      "size": 697021129,
+      "md5": "ad209985ef1d4e8899e6c2e249d788b7"
+    },
+    {
+      "path": "data/raw/holographic_circuitmap_etoe/12192022_cell5_map_EtoE_A_cmFormat.mat",
+      "size": 1456448141,
+      "md5": "9cd9563dbbaead7ce5e7fe8b8a39c193"
+    },
+    {
+      "path": "data/raw/holographic_circuitmap_etoe/12192022_cell6_map_EtoE_A_cmFormat.mat",
+      "size": 784683001,
+      "md5": "08279ad93e04e6e8f59dfdd82de1ab8c"
+    },
+    {
+      "path": "data/raw/holographic_circuitmap_etoe/12192022_cell8_map_EtoE_A_cmFormat.mat",
+      "size": 683806533,
+      "md5": "25618e8230739133f96a3e61c2738b87"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "artifacts/holographic_etoe_confirmation/trial_metrics.csv.gz",
+      "rows": 148870,
+      "sha256": "7d04472c62f51f964e6e958a7d7c94a9725a2bf16695e856f5e4d9b50524fb04"
+    },
+    {
+      "path": "artifacts/holographic_etoe_confirmation/file_effects.csv",
+      "rows": 20,
+      "sha256": "392e2dd3aeb60b304750a38d32c28d41d0b192ce1762c9d3cc7474ae2f7a51e5"
+    },
+    {
+      "path": "artifacts/holographic_etoe_confirmation/composition_tests.csv",
+      "rows": 4,
+      "sha256": "c87c742f699d7ac2331c58a76e843772c58b659f2f1d3c78365af7640b705149"
+    },
+    {
+      "path": "artifacts/holographic_etoe_confirmation/leave_one_file_out.csv",
+      "rows": 40,
+      "sha256": "71c2bf21aeb71cbf772e013efb3a9c0674af86c215eaef434cda4f2fad17b2f2"
+    },
+    {
+      "path": "artifacts/holographic_etoe_confirmation/token_reliability.csv.gz",
+      "rows": 28344,
+      "sha256": "b836fe562f4da1abf55f5d096c7afd90a21189e9cc12d79dae0f84f57c388af8"
+    },
+    {
+      "path": "artifacts/holographic_etoe_confirmation/power_shrinkage.csv",
+      "rows": 60,
+      "sha256": "16987c4a7e4ea6b214b08215c4437016bdef60a17217cc63d05baae44f56caf0"
+    },
+    {
+      "path": "artifacts/holographic_etoe_confirmation/source_identity_nulls.csv.gz",
+      "rows": 9990,
+      "sha256": "04050ab3b490b7391c14c4a0af3d1adee007edfca4a8989603c59b7d594aa5b2"
+    },
+    {
+      "path": "artifacts/holographic_etoe_confirmation/source_identity_null_summary.csv",
+      "rows": 2,
+      "sha256": "60ce44d9f2fa5e4aeef59f59e89ec24a838ad2821db281e1a57bcdae770e916e"
+    },
+    {
+      "path": "artifacts/holographic_etoe_confirmation/selective_ablation.csv.gz",
+      "rows": 737059,
+      "sha256": "1d314f86f8e0e34ed0112217e6fbe32083fa70afb9556b89f8f77a060f4f12d7"
+    },
+    {
+      "path": "artifacts/holographic_etoe_confirmation/selective_ablation_file_effects.csv",
+      "rows": 10,
+      "sha256": "63ee42581f51964f7de21ab52625309cd7539e18d0666f510247ba800a4e1710"
+    },
+    {
+      "path": "artifacts/holographic_etoe_confirmation/selective_ablation_test.csv",
+      "rows": 1,
+      "sha256": "6ea4c7c93ad9251a2c2d4600d7d880697d6777bab2c20019db5ee4bb87ae9fef"
+    },
+    {
+      "path": "artifacts/holographic_etoe_confirmation/file_diagnostics.csv",
+      "rows": 10,
+      "sha256": "2756271c9791d492c3a51638bfbb8ab44c34d6ab8bc0e2cb1a7aa2bb54602ccb"
+    }
+  ]
+}

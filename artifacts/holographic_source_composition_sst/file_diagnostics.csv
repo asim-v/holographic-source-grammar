@@ -1,0 +1,10 @@
+file,trials,sources,depth_planes,blank_trials,single_source_trials,ensemble_trials,excluded_blank_nonfinite_demixed,excluded_blank_nonfinite_raw,pscs_demixed_tokens,pscs_demixed_eligible_ensemble_trials,selective_ablation_rows,pscs_tokens,pscs_eligible_ensemble_trials
+06022023_cell4_map_SSTtoE_A_cmFormat.mat,5112,125,5,1,2875,2236,1,0,375,2236,21500,375,2236
+06072023_cell1_map_SSTtoE_A_cmFormat.mat,5073,158,5,1,2528,2544,1,0,474,2544,25122,474,2544
+06072023_cell2_map_SSTtoE_A_cmFormat.mat,8472,127,5,0,4572,3900,0,0,381,3900,38100,381,3900
+06072023_cell3_map_SSTtoE_A_cmFormat.mat,4426,175,5,1,2625,1800,1,0,525,1800,17500,525,1800
+11302022_cell2_map_SSTtoE_A_cmFormat.mat,7949,149,5,1,4768,3180,1,0,447,3180,31588,447,3180
+12012022_cell1_map_SSTtoE_A_cmFormat.mat,2298,68,5,1,1156,1141,1,0,204,1141,11084,204,1141
+12012022_cell2_map_SSTtoE_A_cmFormat.mat,3393,119,5,1,1904,1488,1,0,238,936,9282,238,936
+12012022_cell3_map_SSTtoE_B_cmFormat.mat,4095,51,5,0,2595,1500,0,0,153,1500,15000,153,1500
+12072022_cell3_map_SSTtoE_A_cmFormat.mat,5760,105,5,0,3780,1980,0,0,315,1980,18900,315,1980

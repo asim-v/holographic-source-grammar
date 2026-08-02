@@ -1,0 +1,49 @@
+{
+  "analysis": "holographic_feedback_analyses",
+  "status": "post_feedback_sensitivity",
+  "files": 10,
+  "models": [
+    "power_only",
+    "gain_only",
+    "gain_latency",
+    "full_waveform"
+  ],
+  "maximum_latency_ms": 2.0,
+  "sample_rate_hz": 20000.0,
+  "date_proxy_warning": "Recording date is a conservative session proxy, not a verified animal or slice identifier.",
+  "biological_hierarchy": {
+    "postsynaptic_cells": "one file per labeled recorded cell",
+    "slices": "not available in the public file metadata",
+    "animals": "not available in the public file metadata"
+  },
+  "outputs": [
+    {
+      "path": "file_model_performance.csv",
+      "rows": 80
+    },
+    {
+      "path": "file_model_comparisons.csv",
+      "rows": 100
+    },
+    {
+      "path": "file_comparison_tests.csv",
+      "rows": 40
+    },
+    {
+      "path": "date_proxy_effects.csv",
+      "rows": 30
+    },
+    {
+      "path": "date_proxy_tests.csv",
+      "rows": 40
+    },
+    {
+      "path": "reduced_model_parameters.csv.gz",
+      "rows": 56688
+    },
+    {
+      "path": "metadata_audit.csv",
+      "rows": 10
+    }
+  ]
+}

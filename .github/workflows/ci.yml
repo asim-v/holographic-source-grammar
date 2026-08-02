@@ -1,0 +1,47 @@
+name: Reproduce
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install package
+        run: python -m pip install -e ".[dev]"
+
+      - name: Run tests
+        run: python -m pytest -q
+
+      - name: Regenerate figures and tables
+        run: |
+          python scripts/make_figures.py
+          python scripts/make_tables.py
+
+      - name: Install Tectonic
+        working-directory: manuscript
+        run: |
+          curl --proto '=https' --tlsv1.2 -fsSL \
+            https://drop-sh.fullyjustified.net | sh
+
+      - name: Compile manuscript
+        working-directory: manuscript
+        run: ./tectonic --keep-logs --keep-intermediates main.tex
+
+      - name: Upload compiled manuscript
+        uses: actions/upload-artifact@v4
+        with:
+          name: manuscript
+          path: manuscript/main.pdf
+

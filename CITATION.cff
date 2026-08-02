@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this analysis, please cite the manuscript and the source dataset."
+title: "Single-neuron response strength and latency predict held-out group currents"
+type: software
+authors:
+  - family-names: "Bazan Sanchez"
+    given-names: "Javier Emilio"
+    email: "bazan@ciencias.unam.mx"
+    affiliation: "Faculty of Sciences, UNAM"
+version: 0.1.0
+date-released: 2026-08-01
+license: MIT
+repository-code: "https://github.com/asim-v/holographic-source-grammar"
+keywords:
+  - two-photon holographic optogenetics
+  - postsynaptic current
+  - single-neuron stimulation
+  - held-out prediction
+  - source-specific response strength
+  - response latency
+  - neural waveform demixing
+references:
+  - type: dataset
+    title: "Neural circuit mapping using two-photon holographic optogenetics"
+    authors:
+      - family-names: "Gajowa"
+        given-names: "Marta"
+      - family-names: "Triplett"
+        given-names: "Marcus A."
+    doi: "10.6084/m9.figshare.25641435.v1"
+    year: 2025

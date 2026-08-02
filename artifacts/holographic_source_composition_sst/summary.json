@@ -1,0 +1,245 @@
+{
+  "analysis": "holographic_source_composition",
+  "cohort": "sst_discovery",
+  "protocol_complete": true,
+  "protocol_sha256": "ef740262f89da0c1b4051b24c52b57084c44f8bfdd7f407b7f541f59dc02d45a",
+  "previous_protocol_sha256": "47de495367b789c15f00f1e23b80d8a3e33ea3ff3991027690059b57ab9b9c37",
+  "manifest_sha256": "65864e3126d6d1b9c0f8ce11e9ff1bbd47a423fcdef4f64a54792660cadb04ab",
+  "figshare_article_id": 25641435,
+  "doi": "10.6084/m9.figshare.25641435.v1",
+  "circuitmap_commit": "75934895f8ef02b8045ab1a8eee592a062c2489e",
+  "files_requested": 9,
+  "files_with_eligible_ensembles": 9,
+  "null_repetitions": 999,
+  "outcomes": [
+    "pscs_demixed",
+    "pscs"
+  ],
+  "trial_counts": {
+    "total": 46578,
+    "single_source": 26803,
+    "ensemble": 19769,
+    "eligible_primary_ensemble": 19217
+  },
+  "primary_file_mean_effects": {
+    "mse_gain_source_vs_anonymous": 0.0008777067765320264,
+    "rho_gain_source_vs_anonymous": -0.0026276185832238164
+  },
+  "raw_file_mean_effects": {
+    "mse_gain_source_vs_anonymous": 0.0006459558355117738,
+    "rho_gain_source_vs_anonymous": -0.06850419976078681
+  },
+  "minimum_primary_leave_one_file_out": {
+    "mse_gain_source_vs_anonymous": 0.0005464567199618526,
+    "rho_gain_source_vs_anonymous": -0.005128733429956055
+  },
+  "composition_tests": [
+    {
+      "outcome": "pscs_demixed",
+      "metric": "mse_gain_source_vs_anonymous",
+      "mean_file_effect": 0.0008777068,
+      "p_value": 0.001953125,
+      "n_files": 9,
+      "n_assignments": 512,
+      "q_value": 0.00390625,
+      "passes": true
+    },
+    {
+      "outcome": "pscs_demixed",
+      "metric": "rho_gain_source_vs_anonymous",
+      "mean_file_effect": -0.0026276186,
+      "p_value": 0.681640625,
+      "n_files": 9,
+      "n_assignments": 512,
+      "q_value": 0.681640625,
+      "passes": false
+    },
+    {
+      "outcome": "pscs",
+      "metric": "mse_gain_source_vs_anonymous",
+      "mean_file_effect": 0.0006459558,
+      "p_value": 0.09375,
+      "n_files": 9,
+      "n_assignments": 512,
+      "q_value": 0.1875,
+      "passes": false
+    },
+    {
+      "outcome": "pscs",
+      "metric": "rho_gain_source_vs_anonymous",
+      "mean_file_effect": -0.0685041998,
+      "p_value": 1.0,
+      "n_files": 9,
+      "n_assignments": 512,
+      "q_value": 1.0,
+      "passes": false
+    }
+  ],
+  "source_identity_null_tests": [
+    {
+      "metric": "mse_gain_source_vs_anonymous",
+      "observed_mean_file_effect": 0.0008777068,
+      "null_mean": -0.0010535619,
+      "null_standard_deviation": 0.0001617939,
+      "null_raw_99_percentile": -0.0005524057,
+      "observed_z": 11.9366001086,
+      "familywise_99_threshold_z": 3.1951064188,
+      "familywise_p_value": 0.001,
+      "passes": true
+    },
+    {
+      "metric": "rho_gain_source_vs_anonymous",
+      "observed_mean_file_effect": -0.0026276186,
+      "null_mean": -0.0297266242,
+      "null_standard_deviation": 0.0013987003,
+      "null_raw_99_percentile": -0.0262200902,
+      "observed_z": 19.3744192318,
+      "familywise_99_threshold_z": 3.1951064188,
+      "familywise_p_value": 0.001,
+      "passes": true
+    }
+  ],
+  "selective_ablation_test": [
+    {
+      "mean_file_effect": 0.0002416439,
+      "p_value": 0.001953125,
+      "n_files": 9,
+      "n_assignments": 512,
+      "passes": true
+    }
+  ],
+  "gates": {
+    "protocol_complete": true,
+    "primary_composition_metrics": false,
+    "positive_leave_one_file_out": false,
+    "familywise_source_identity_null": true,
+    "selective_token_ablation": true,
+    "usable_files": 9,
+    "minimum_usable_files": 7,
+    "minimum_file_count": true,
+    "sst_opening_gate": false,
+    "pv_may_be_opened": false
+  },
+  "interpretation": "Passing supports source-specific additive composition for this perturbation cohort. It does not establish monosemantic neurons, natural-language meanings, or a complete neural language.",
+  "inputs": [
+    {
+      "path": "docs/holographic_source_composition_protocol.md",
+      "sha256": "ef740262f89da0c1b4051b24c52b57084c44f8bfdd7f407b7f541f59dc02d45a"
+    },
+    {
+      "path": "docs/holographic_source_composition_protocol.lock.json",
+      "sha256": "bfa43d2f3e36996802b2b75b71af99171f6b49293d9caf9d43d3d62d0f538477"
+    },
+    {
+      "path": "data/holographic_circuitmap_manifest.json",
+      "sha256": "65864e3126d6d1b9c0f8ce11e9ff1bbd47a423fcdef4f64a54792660cadb04ab"
+    },
+    {
+      "path": "data/raw/holographic_circuitmap/06022023_cell4_map_SSTtoE_A_cmFormat.mat",
+      "size": 237655135,
+      "md5": "406c317c45c26ce1c94acd9e11911cfa"
+    },
+    {
+      "path": "data/raw/holographic_circuitmap/06072023_cell1_map_SSTtoE_A_cmFormat.mat",
+      "size": 232005312,
+      "md5": "54451621f360d5ec89e54f036425ab29"
+    },
+    {
+      "path": "data/raw/holographic_circuitmap/06072023_cell2_map_SSTtoE_A_cmFormat.mat",
+      "size": 377479852,
+      "md5": "caa769ed18e90be8f2072781fe64fe5a"
+    },
+    {
+      "path": "data/raw/holographic_circuitmap/06072023_cell3_map_SSTtoE_A_cmFormat.mat",
+      "size": 197728454,
+      "md5": "b44753c6e3a39cdd5ff0cf9ab1d2828b"
+    },
+    {
+      "path": "data/raw/holographic_circuitmap/11302022_cell2_map_SSTtoE_A_cmFormat.mat",
+      "size": 343017130,
+      "md5": "45b512c86b199cb91adafcaa9e22a1d7"
+    },
+    {
+      "path": "data/raw/holographic_circuitmap/12012022_cell1_map_SSTtoE_A_cmFormat.mat",
+      "size": 127289118,
+      "md5": "d0f6e2bdac3a38c1c4ba50bbbb9d13df"
+    },
+    {
+      "path": "data/raw/holographic_circuitmap/12012022_cell2_map_SSTtoE_A_cmFormat.mat",
+      "size": 163782527,
+      "md5": "b1c7e4752068b08949dc05c822c357a3"
+    },
+    {
+      "path": "data/raw/holographic_circuitmap/12012022_cell3_map_SSTtoE_B_cmFormat.mat",
+      "size": 214408423,
+      "md5": "1fda7370f811924efc1f04e9a90efd44"
+    },
+    {
+      "path": "data/raw/holographic_circuitmap/12072022_cell3_map_SSTtoE_A_cmFormat.mat",
+      "size": 259817271,
+      "md5": "cb27881492f7bf39b8e79b766b7ea0d6"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "artifacts/holographic_source_composition_sst/trial_metrics.csv.gz",
+      "rows": 38434,
+      "sha256": "c2babbfe4b1df15bd6db2baf83722bcff7caece6fa609423d584aaf6936c35f0"
+    },
+    {
+      "path": "artifacts/holographic_source_composition_sst/file_effects.csv",
+      "rows": 18,
+      "sha256": "83930fddd8387f1934794e076ed48f8bebf86d0bb2b6a6bd26155aa99c6a1650"
+    },
+    {
+      "path": "artifacts/holographic_source_composition_sst/composition_tests.csv",
+      "rows": 4,
+      "sha256": "0ef4370265a8fde499ab36d458cba8779beef431969564d5a08fafef8ba0440e"
+    },
+    {
+      "path": "artifacts/holographic_source_composition_sst/leave_one_file_out.csv",
+      "rows": 36,
+      "sha256": "6293c79e9289a26ff3bf215e33db41f7846fa95fdf462785e3a93cdb25d902d6"
+    },
+    {
+      "path": "artifacts/holographic_source_composition_sst/token_reliability.csv.gz",
+      "rows": 6224,
+      "sha256": "9ff0fd156250310f50f0aed1a5437364ea64dd01eb8160e4a2d29804b566c55f"
+    },
+    {
+      "path": "artifacts/holographic_source_composition_sst/token_inventory.csv.gz",
+      "rows": 6224,
+      "sha256": "9ec92993ab68a11510b63785f74827cd5082c69e08788e5f0ddf9933c8d1d4ae"
+    },
+    {
+      "path": "artifacts/holographic_source_composition_sst/source_identity_nulls.csv.gz",
+      "rows": 8991,
+      "sha256": "e22cbd0ccc32a8542b5855140b0ae2263c051c2c0d40b0d0b60cb11948b45534"
+    },
+    {
+      "path": "artifacts/holographic_source_composition_sst/source_identity_null_summary.csv",
+      "rows": 2,
+      "sha256": "88e9d4b22d96193474e46a563eb90c0457675f17818bb49bb3391556d5acce3b"
+    },
+    {
+      "path": "artifacts/holographic_source_composition_sst/selective_ablation.csv.gz",
+      "rows": 188076,
+      "sha256": "acb6af7a2bef5a360e2ffe15c8a25654e5dcc68babd450b27be9b1af366a6fe7"
+    },
+    {
+      "path": "artifacts/holographic_source_composition_sst/selective_ablation_file_effects.csv",
+      "rows": 9,
+      "sha256": "091cff4de2b77d9897c42c20b93fdb2ff7614e5b1cb03741515b54a41027bf97"
+    },
+    {
+      "path": "artifacts/holographic_source_composition_sst/selective_ablation_test.csv",
+      "rows": 1,
+      "sha256": "2c1b1449dbb787382c88520febc1124d7156c73d6c2e7855cb0338f88741b70c"
+    },
+    {
+      "path": "artifacts/holographic_source_composition_sst/file_diagnostics.csv",
+      "rows": 9,
+      "sha256": "f2e4f9ca54e090c981cd7dd944bf4064c000010fda5cdc9879c9fb1109222581"
+    }
+  ]
+}

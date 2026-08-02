@@ -1,0 +1,11 @@
+# These provenance artifacts are chained by byte-level SHA-256 locks.
+docs/holographic_source_composition_protocol.md -text
+docs/holographic_source_composition_protocol.lock.json -text
+docs/holographic_reliability_shrinkage_development.md -text
+docs/holographic_reliability_shrinkage_development.lock.json -text
+docs/holographic_etoe_confirmation_protocol.md -text
+docs/holographic_etoe_confirmation_protocol.lock.json -text
+data/holographic_circuitmap_manifest.json -text
+data/holographic_etoe_confirmation_manifest.json -text
+artifacts/holographic_source_composition_sst/summary.json -text
+artifacts/holographic_reliability_shrinkage_sst/summary.json -text
